@@ -16,6 +16,13 @@ public abstract class Entity implements IDrawable {
 
     protected boolean alive = false;
 
+    public int getVerticalCenter(){
+        return y;
+    }
+
+    public int getHorizontalCenter(){
+        return x;
+    }
 
     /**
      * Поместить игровую сущность на игровое поле с координатами
